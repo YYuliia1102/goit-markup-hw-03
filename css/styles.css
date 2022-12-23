@@ -55,7 +55,18 @@ button {
   padding-bottom: 24px;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+}
+
 .logo {
+  margin-right: 76px;
+
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -66,6 +77,11 @@ button {
 }
 .logo-web {
   color: var(--accent-color);
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+
 }
 
 .menu-link {
@@ -80,6 +96,14 @@ button {
   color: var(--accent-color);
 }
 
+.contact-block {
+  margin-left: auto;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .contact-mail {
   font-weight: 400;
   font-size: 16px;
@@ -89,6 +113,8 @@ button {
 }
 
 .contact-number {
+
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
