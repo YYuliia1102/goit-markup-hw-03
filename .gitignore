@@ -1,7 +1,0 @@
-.vscode
-.idea
-node_modules
-.env
-*.psd
-build/
-.DS_Store 
